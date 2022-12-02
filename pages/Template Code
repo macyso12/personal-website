@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Macy S. | Portfolio</title>
+    <!--Import fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Train+One&display=swap" rel="stylesheet">
+    <!--Import icons-->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+
+    <div class="hamburger-menu">
+        <i class="ion-navicon open"></i>
+        <i class="ion-android-close close"></i>
+    </div>
+
+    <nav class="nav">
+        <div class="intro">
+            <h1 class="intro-heading">Macy S.</h1>
+            <h2 class="intro-subhead">Fordham Student</h2>
+        </div>
+        <ul>
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="../index.html#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="../files/Resume - So May See Macy .pdf" class="nav-link" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a href="../index.html#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a href="../index.html#experience" class="nav-link">Achievements</a>
+            </li>
+            <li class="nav-item">
+                <a href="../index.html#project-work" class="nav-link">Project Work</a>
+            </li>
+            <li class="nav-item">
+                <a href="../index.html#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+
+        <div class="social-media-wrapper">
+            <span>Follow me on</span>
+            <div class="social-media">
+                <a href="https://www.instagram.com/macie._.here/" class="sm-link" target="_blank"><i class="ion-social-instagram"></i></a>
+                <a href="mailto:mso@fordham.edu" class="sm-link" target="_blank"><i class="ion-android-mail"></i></a>
+                <a href="https://www.linkedin.com/in/macyso/" class="sm-link" target="_blank"><i class="ion-social-linkedin"></i></a>
+                <a href="https://github.com/macyso12" class="sm-link" target="_blank"><i class="ion-social-github"></i></a>
+                <a href="https://www.youtube.com/channel/UCJqH0ZPbDVJI4NJxDdw3Swg" class="sm-link" target="_blank"><i class="ion-social-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright-notice">
+            <p>Copyright &copy; 2021 All rights reserved.</p>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <!-- <input type="radio" name="radio-btn" id="radio4"> -->
+
+            <div class="slide first">
+                <img src="#" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="#" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="#" alt="">
+            </div>
+            <!-- automatics nav start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+            <!-- automatics nav end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+        <!--manual navigation start-->
+    </div>
+    <div class="title-section">
+        <div class="inner-container">
+            <h1>Name</h1>
+            <p class="text"> Text </p>
+
+        </div>
+    </div>
+
+    <!--Link JS-->
+
+    <script src="slide.js"></script>
+</body>
+
+</html>
