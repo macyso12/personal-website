@@ -18,7 +18,7 @@
     --blue-color: #bdd0eb;
     --yellow-color: #fdf6dc;
     --purple-color: #d6d0f5;
-    --dark-blue-color: #b3dfb5;
+    --dark-green-color: #b3dfb5;
 }
 
 html {
@@ -319,7 +319,7 @@ p {
 }
 
 .heading-group {
-    color: var(--dark-blue-color);
+    color: var(--dark-green-color);
     margin-bottom: 5rem;
 }
 
@@ -420,8 +420,8 @@ p {
     border-bottom-color: var(--purple-color);
 }
 
-.grid-item.dark-blue {
-    border-bottom-color: var(--dark-blue-color);
+.grid-item.dark-green {
+    border-bottom-color: var(--dark-green-color);
 }
 
 .orange i {
@@ -508,12 +508,12 @@ p {
     border-right-color: var(--purple-color);
 }
 
-.dark-blue .item-skill {
-    background-color: var(--dark-blue-color);
+.dark-green .item-skill {
+    background-color: var(--dark-green-color);
 }
 
-.dark-blue .item-skill::before {
-    border-right-color: var(--dark-blue-color);
+.dark-green .item-skill::before {
+    border-right-color: var(--dark-green-color);
 }
 
 .skill-name {
